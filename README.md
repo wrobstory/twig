@@ -1,4 +1,4 @@
 twig
 ====
 
-A Leaflet JSON API
+A Leaflet JSON Interpreter

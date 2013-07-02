@@ -1,0 +1,8 @@
+{
+    "lat": 45.5236,
+    "lng": -122.675,
+    "zoomstart": 10,
+    "tileref": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "maxzoom": 18,
+    "attribution": "Map data (c) <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors"
+}

@@ -1,0 +1,12 @@
+{
+    "lat": 45.372,
+    "lng": -121.6625,
+    "zoomstart": 12,
+    "tileref": "http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.jpg",
+    "maxzoom": 18,
+    "attribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://creativecommons.org/licenses/by-sa/3.0\">CC BY SA</a>.",
+    "markers": [
+        {"lat": 45.3288, "lng": -121.6625, "popup": {"type": "HTML", "data": "Mt. Hood Meadows" }},
+        {"lat": 45.3311, "lng": -121.7113, "popup": {"type": "HTML", "data": "Timberline Lodge" }}
+    ]
+}

@@ -1,4 +1,4 @@
 twig
 ====
 
-A Leaflet JSON Interpreter
+A Leaflet.js Grammar

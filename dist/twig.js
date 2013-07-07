@@ -1,6 +1,6 @@
 /*! twig - v0.0.1
  *  License: MIT
- *  Date: 2013-07-02
+ *  Date: 2013-07-06
  */
 (function( global ) {
   var Twig = function() {
@@ -8,14 +8,19 @@
     var L = window.L;
 
     baseMap = function(lat, lng, zoomstart, id) {
+
         return L.map(id).setView([lat, lng], zoomstart);
+
     };
 
     tileLayer = function(map, tileref, maxzoom, attribution) {
+
         L.tileLayer(tileref, { maxZoom: maxzoom, attribution: attribution}).addTo(map);
+
     };
 
     markers = function(map, markers) {
+
         leafmarks = markers.map(function(marker) {
           var leafmark = L.marker([marker['lat'], marker['lng']]);
           if ('popup' in marker) {
@@ -25,6 +30,12 @@
         });
 
         leafmarks.map(function(mark){map.addLayer(mark);});
+
+    };
+
+    vega_parse = function(spec, div) {
+
+      vg.parse.spec(spec, function(chart) { chart({el:div}).update(); });
 
     };
 
